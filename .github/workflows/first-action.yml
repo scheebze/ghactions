@@ -15,7 +15,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Print Greeting
-        run: echo "Hello World!"
+        run: |
+             echo "Hello World!"
+             echo "I am a potato!"
+             echo "I SAID I AM A POTATO!!!"
       - name: Print Goodbye
         run: echo "Done. Goodbye!"
       
